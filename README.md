@@ -23,7 +23,7 @@ Rendered from a simulated Obsidian note (default light theme) under print media 
 
 **1. Default export, no snippet — the problem: washed-out light-gray blocks**
 
-![Default export without snippet](images/proof-1-default.png)
+proof-1-default.png
 
 **2. With `Black-snippet.css` — solid black block, white plain text, theme syntax colors kept**
 
