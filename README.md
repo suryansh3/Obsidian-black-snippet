@@ -26,11 +26,12 @@ Rendered from a simulated Obsidian note (default light theme) under print media 
 [proof-1-default.png](https://github.com/suryansh3/Obsidian-black-snippet/blob/87a663d13465dfd5ae3129bf66c06bec723f377f/proof-1-default.png)
 **2. With `Black-snippet.css` — solid black block, white plain text, theme syntax colors kept**
 
-[proof-2-black-snippet.png](phttps://github.com/suryansh3/Obsidian-black-snippet/blob/6abafb5a8bf98b385d96e5d2fb05bdbc70e72ff4/proof-2-black-snippet.png)
+[proof-2-black-snippet.png](https://github.com/suryansh3/Obsidian-black-snippet/blob/6abafb5a8bf98b385d96e5d2fb05bdbc70e72ff4/proof-2-black-snippet.png)
 
 **3. With `black-snippet-color.css` — block inverted white → black, syntax colors auto-adapted**
 
-[proof-3-color.png](phttps://github.com/suryansh3/Obsidian-black-snippet/blob/6abafb5a8bf98b385d96e5d2fb05bdbc70e72ff4/proof-3-color.png)
+[proof-3-color.png](https://github.com/suryansh3/Obsidian-black-snippet/blob/3a21c5ec8af23706471beb94857f0047869c8cc9/proof-3-color.png)
+
 
 ---
 
