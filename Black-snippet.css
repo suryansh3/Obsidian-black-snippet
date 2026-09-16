@@ -1,0 +1,34 @@
+/* -----------------------------------------------------------
+   PDF EXPORT SETTINGS
+----------------------------------------------------------- */
+@media print {
+    /* 1. The Container: Force Black Background */
+    pre {
+        background-color: #000000 !important;
+        border: 1px solid #444 !important;
+        border-radius: 5px !important;
+        
+        /* FORCE PRINTING OF BACKGROUND COLORS */
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    /* 2. The Fallback Text Color (For Terminal/Output blocks) */
+    /* This sets plain text to white so it is readable on black */
+    code, 
+    pre > code {
+        color: #e6e6e6 !important; /* Light gray/white */
+        text-shadow: none !important;
+        background-color: transparent !important;
+    }
+
+    /* 3. The Syntax Highlighting (For Java/Code blocks) */
+    /* We explicitly tell CSS NOT to override the colors of the code tokens */
+    span[class*="token"],
+    span[class*="cm-"],
+    span.cm-hmd-code {
+        /* This ensures the syntax colors (blue, green, orange) are preserved */
+        /* We do NOT add a 'color' property here, so it uses the theme's colors */
+        background-color: transparent !important;
+    }
+}
